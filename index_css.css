@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-family: "微软雅黑";background-color: #e5eecc;}
+
+#main{height: 500px;background-image: url(image/bg_home.jpg);background-repeat: no-repeat;background-size: cover;}
+#main .header{width: 1200px;margin: 0 auto;}
+#main .header_menu{width: 300px;height: 200px;position: absolute;margin-top: 150px;text-align: center;color: white;}
+#main .header_menu ul{list-style-type: none;}
+#main .header_menu li{display: inline-block;}
+#main .header_menu h1{display: none;}
+#main .header_menu p{display: none;}
+#main .img1,.img2,.img3,.img4{display: none;}
+
+#main .img1{width: 60px;position: absolute;left: 0;top: 100px; transition: width .8s;} 
+#main .img2{width: 60px;position: absolute;left: 80px;top: 100px; transition: width .8s;} 
+#main .img3{width: 60px;position: absolute;left: 160px;top: 100px; transition: width .8s;} 
+#main .img4{width: 60px;position: absolute;right: 0;top: 100px; transition: width .8s;} 
+#main .img1:hover{width: 70px;}
+#main .img2:hover{width: 70px;}
+#main .img3:hover{width: 70px;}
+#main .img4:hover{width: 70px;}
+
+#footer{width: 1200px;margin: 0 auto;position: relative;}
+#footer .left{position: absolute;width: 600px;;float: left;margin-top: 100px;display: none;}
+#footer .right{width: 600px;float: right;margin-top: 50px;display: none;}
+
+#wechat{width: 250px;position: fixed;left: 625px;top: 140px;background-color: white;text-align: center;display: none;}
+#wechat button{padding: 0 4px;margin-bottom: 4px;}
+#wechat img{width: 250px;}
+	
+	
